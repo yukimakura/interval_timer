@@ -38,7 +38,7 @@ export default function Home() {
       <center>
         <Space direction="vertical" size="large" style={{ display: 'flex' }}>
           <h1>{timedata}秒経過</h1>
-          <p>ブザー鳴らす間隔時間{notifydata}秒</p><br />
+          <p>ブザー鳴らす時間{notifydata}秒</p><br />
           <InputNumber size='large' min={1} defaultValue={0} onChange={x => setNotifydata(ax => x ?? 0)} /><br />
           <Button onClick={() => {
             setTimedata(0);
