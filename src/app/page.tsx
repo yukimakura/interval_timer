@@ -23,15 +23,15 @@ export default function Home() {
     play()
   }
 
-  if (isLoading) {
-    return (
-      <main>
-        <center>
-          <h1>よみこみなう</h1>
-        </center>
-      </main>
-    )
-  }
+  // if (isLoading) {
+  //   return (
+  //     <main>
+  //       <center>
+  //         <h1>よみこみなう</h1>
+  //       </center>
+  //     </main>
+  //   )
+  // }
 
   return (
     <main>
